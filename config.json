@@ -1,0 +1,44 @@
+{
+    "testers": {
+	"ping_yandex_large": {
+	    "driver": "pinger",
+	    "options": {
+		"host": "ya.ru",
+		"size": 1200
+	    }
+	},
+	"ping_yandex_small": {
+	    "driver": "pinger",
+	    "options": {
+		"host": "ya.ru",
+		"size": 60
+	    }
+	},
+	"download_artifact": {
+	    "driver": "http_download",
+	    "options": {
+		"url": "http://ya.ru"
+	    }
+	},
+	"download_emacs_na":{
+	    "driver": "http_download",
+	    "options": {
+		"url": "http://mirrors.kernel.org/ubuntu/pool/universe/e/emacs/emacs-nox_26.3+1-1ubuntu1_amd64.deb"
+	    }
+	},
+	"download_emacs":{
+	    "driver": "http_download",
+	    "options": {
+		"url": "http://de.archive.ubuntu.com/ubuntu/pool/universe/e/emacs/emacs-nox_26.3+1-1ubuntu1_amd64.deb"
+	    }
+	},
+	"download_main_page_jira":{
+	    "driver": "http_download",
+	    "options": {
+		"url": "http://jira.raiffeisen.ru"
+	    }
+	}
+    },
+    "timeout": 20,
+    "out_file": "out.sqlite"
+}
