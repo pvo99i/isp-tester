@@ -23,5 +23,5 @@ $ sudo pip-3.8 install requests --trusted-host  pypi.org  --trusted-host files.p
 # How to run
 
 ```
-$sudo python38 start.py --config PATH_TO_CONFIG --user_name MY_USER_NAME --password MY_SUPER_PASSWORD
+$ sudo python3.8 start.py --config PATH_TO_CONFIG --user_name MY_USER_NAME --password MY_SUPER_PASSWORD
 ```
