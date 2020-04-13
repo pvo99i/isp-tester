@@ -11,7 +11,7 @@ $ sudo port select --set python3 python38
 
 2. install pip3
 ```
-$ sudo 
+$ sudo port install py38-pip
 
 ```
 
