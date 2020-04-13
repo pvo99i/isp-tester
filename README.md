@@ -17,7 +17,7 @@ $ sudo port install py38-pip
 
 3. install requests package
 ```
-$ pip install requests
+$ sudo pip-3.8 install requests --trusted-host  pypi.org  --trusted-host files.pythonhosted.org
 ```
 
 # How to run
